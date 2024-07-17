@@ -9,32 +9,56 @@
   integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
   crossorigin="anonymous"></script>
   <script src="./index.js"></script>
+  <style>
+
+    *{
+        background-color: black;
+        text-align: center;
+        color: white;
+    }
+    
+  </style>
+  
+
 </head>
 <body>
-    <div><h1>Titulo da pagina</h1></div>
-
     <div>
-        <ul>
 
-            <li>nome1</li>
-            <li>nome2</li>
-            <li>nome3</li>
-            <li>nome4</li>
-            <li id="teste">nome5</li>
-           
-        </ul>
+        <div><h1>Titulo da pagina</h1></div>
+        <p></p>
+
+        <h2>Lista</h2>
+
+        <div>
+            <ul>
+                
+                <li>Blue</li>
+                <li>Green</li>
+                <li>Red</li>
+                <li>Black</li>
+                <li>White</li>
+                <li>Pink</li>
+            
+            </ul>
+        </div>
+
+        <br>
+        <div><button id="btn_mostrar_apagar"></button></div> <br>
+
+        <div >
+            <div>
+                <label for="corInput">Digite uma cor:</label>
+                <input type="text" id="corInput" name="cor"> <br>
+            </div>
+            <div>
+                <button id="pintar_btn">Pinta</button>
+            </div>
+            
+
+        </div>
+
+        <p id="mensagem_erro"></p> 
+
     </div>
-
-    <div><button id="btn_mostrar_apagar">Click</button></div>
-
-    <p></p> 
-
-    <div>
-        <label for="corInput">Digite uma cor:</label>
-        <input type="text" id="corInput" name="cor">
-        <button id="pintar_btn">Pinta</button>
-    </div>
-
-
 </body>
 </html>
